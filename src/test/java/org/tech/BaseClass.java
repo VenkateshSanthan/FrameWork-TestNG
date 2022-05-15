@@ -31,8 +31,9 @@ public class BaseClass {
 			public void browserClose(WebDriver driver) {
 				driver.quit();
 			}
-			
-			
-			
+			public void add() {
+				System.out.println();
+				
+			}
 }
 
