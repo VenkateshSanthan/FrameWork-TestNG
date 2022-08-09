@@ -3,16 +3,7 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test verbose="2" name="Default test">
     <classes>
-      <class name="org.tech.HotelTestNG"/>
+      <class name="org.tech.Demo"/>
     </classes>
   </test> <!-- Default test -->
-  <test name="Default test(failed)">
-    <classes>
-      <class name="org.tech.HotelTestNG">
-        <methods>
-          <include name="urlTest"/>
-        </methods>
-      </class> <!-- org.tech.HotelTestNG -->
-    </classes>
-  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
